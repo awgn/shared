@@ -7,4 +7,5 @@ Authors
 -------
 
 Nicola Bonelli <nicola.bonelli@cnit.it>
+
 Loris Gazzarrini <loris.gazzarrini@for.iet.unipi.it>
