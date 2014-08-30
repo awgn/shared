@@ -598,10 +598,10 @@ Context(SharedMap)
         m.insert(std::make_pair(3, 30));
         m.insert(std::make_pair(4, 40));
 
-        AssertNothrow(m.at(1));
-        AssertNothrow(m.at(2));
-        AssertNothrow(m.at(3));
-        AssertNothrow(m.at(4));
+        AssertNoThrow(m.at(1));
+        AssertNoThrow(m.at(2));
+        AssertNoThrow(m.at(3));
+        AssertNoThrow(m.at(4));
 
         AssertThrow(m.at(5));
     }
